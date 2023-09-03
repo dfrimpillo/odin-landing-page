@@ -74,3 +74,39 @@ a {
     font-weight: bold;
     margin-top: 13px;
 }
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+}
+
+.info-container {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.info p {
+    width: 180px;
+    color: #1f2937;
+}
